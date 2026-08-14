@@ -1,0 +1,149 @@
+{
+  "operators_added": [],
+  "operators_removed": [],
+  "function_changes": [
+    {
+      "operator": "罗小黑",
+      "function": "burst",
+      "baseline": null,
+      "candidate": 0.069
+    },
+    {
+      "operator": "豆苗",
+      "function": "ground",
+      "baseline": null,
+      "candidate": 0.069
+    }
+  ],
+  "strategy_tier_changes": [],
+  "evidence_added": [
+    {
+      "operator": "伊桑",
+      "added": [
+        {
+          "type": "external_aggregated",
+          "source_ids": [
+            "phase4-seed-evidence-manual-001"
+          ],
+          "recommendation_confidence": 0.07875,
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "operator": "古米",
+      "added": [
+        {
+          "type": "external_aggregated",
+          "source_ids": [
+            "phase4-seed-evidence-manual-001"
+          ],
+          "recommendation_confidence": 0.08859375000000001,
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "operator": "梅",
+      "added": [
+        {
+          "type": "external_aggregated",
+          "source_ids": [
+            "phase4-seed-evidence-manual-001"
+          ],
+          "recommendation_confidence": 0.07875,
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "operator": "清流",
+      "added": [
+        {
+          "type": "external_aggregated",
+          "source_ids": [
+            "phase4-seed-evidence-manual-001"
+          ],
+          "recommendation_confidence": 0.07875,
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "operator": "砾",
+      "added": [
+        {
+          "type": "external_aggregated",
+          "source_ids": [
+            "phase4-seed-evidence-manual-001"
+          ],
+          "recommendation_confidence": 0.08859375000000001,
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "operator": "罗小黑",
+      "added": [
+        {
+          "type": "external_aggregated",
+          "source_ids": [
+            "phase4-seed-evidence-manual-001"
+          ],
+          "recommendation_confidence": 0.06890624999999999,
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "operator": "豆苗",
+      "added": [
+        {
+          "type": "external_aggregated",
+          "source_ids": [
+            "phase4-seed-evidence-manual-001"
+          ],
+          "recommendation_confidence": 0.06890624999999999,
+          "conflicts": []
+        }
+      ]
+    }
+  ],
+  "confidence_changes": [
+    {
+      "operator": "伊桑",
+      "baseline": "low",
+      "candidate": "candidate"
+    },
+    {
+      "operator": "古米",
+      "baseline": "medium",
+      "candidate": "candidate"
+    },
+    {
+      "operator": "梅",
+      "baseline": "medium",
+      "candidate": "candidate"
+    },
+    {
+      "operator": "清流",
+      "baseline": "medium",
+      "candidate": "candidate"
+    },
+    {
+      "operator": "砾",
+      "baseline": "medium",
+      "candidate": "candidate"
+    },
+    {
+      "operator": "罗小黑",
+      "baseline": "low",
+      "candidate": "candidate"
+    },
+    {
+      "operator": "豆苗",
+      "baseline": "low",
+      "candidate": "candidate"
+    }
+  ]
+}

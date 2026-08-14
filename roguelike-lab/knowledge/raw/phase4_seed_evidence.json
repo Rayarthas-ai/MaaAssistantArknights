@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "source_id": "phase4-seed-evidence-manual-001",
+    "source_type": "manual_user_input",
+    "title": "Phase 4 seed functional evidence fixture",
+    "author": "Arthas / Codex lab",
+    "url": "roguelike-lab/knowledge/raw/phase4_seed_evidence.json",
+    "collected_at": "2026-08-14",
+    "published_at": "2026-08-14",
+    "game_version": null,
+    "maa_version_if_known": "00da4c367d3167ef732167854314e361b5d5d37f",
+    "roguelike_theme": "JieGarden",
+    "difficulty": null,
+    "language": "zh-CN",
+    "credibility": "medium",
+    "sanitized": true,
+    "requires_game_validation": true,
+    "notes": [
+      "人工导入的社区研究结果 fixture。",
+      "这些 evidence 尚未被实机证明，只能进入 candidate profile。",
+      "罗小黑的 damage 只记录在 notes；当前 schema 不新增 damage 标签。"
+    ]
+  },
+  "recommendations": [
+    {
+      "operator": "古米",
+      "theme": "JieGarden",
+      "difficulty": null,
+      "recommendation_type": "functional_pick",
+      "functions": ["ground", "block", "healing", "sustain"],
+      "hope_context": "low_hope",
+      "priority_claim": "medium",
+      "reason": "Manual community-research fixture: multi-role survival coverage candidate.",
+      "source_id": "phase4-seed-evidence-manual-001",
+      "confidence": 0.45,
+      "evidence_type": "manual_user_input"
+    },
+    {
+      "operator": "伊桑",
+      "theme": "JieGarden",
+      "difficulty": null,
+      "recommendation_type": "functional_pick",
+      "functions": ["control", "ground", "utility"],
+      "hope_context": "low_hope",
+      "priority_claim": "medium",
+      "reason": "Manual community-research fixture: control and utility candidate.",
+      "source_id": "phase4-seed-evidence-manual-001",
+      "confidence": 0.4,
+      "evidence_type": "manual_user_input"
+    },
+    {
+      "operator": "砾",
+      "theme": "JieGarden",
+      "difficulty": null,
+      "recommendation_type": "functional_pick",
+      "functions": ["fast_redeploy", "bait", "emergency", "ground"],
+      "hope_context": "low_hope",
+      "priority_claim": "medium",
+      "reason": "Manual community-research fixture: fast redeploy bait/emergency candidate.",
+      "source_id": "phase4-seed-evidence-manual-001",
+      "confidence": 0.45,
+      "evidence_type": "manual_user_input"
+    },
+    {
+      "operator": "豆苗",
+      "theme": "JieGarden",
+      "difficulty": null,
+      "recommendation_type": "functional_pick",
+      "functions": ["economy", "ground", "summon"],
+      "hope_context": "low_hope",
+      "priority_claim": "medium",
+      "reason": "Manual community-research fixture: economy and summon candidate.",
+      "source_id": "phase4-seed-evidence-manual-001",
+      "confidence": 0.35,
+      "evidence_type": "manual_user_input"
+    },
+    {
+      "operator": "梅",
+      "theme": "JieGarden",
+      "difficulty": null,
+      "recommendation_type": "functional_pick",
+      "functions": ["ranged", "anti_air", "control"],
+      "hope_context": "low_hope",
+      "priority_claim": "medium",
+      "reason": "Manual community-research fixture: ranged anti-air with control candidate.",
+      "source_id": "phase4-seed-evidence-manual-001",
+      "confidence": 0.4,
+      "evidence_type": "manual_user_input"
+    },
+    {
+      "operator": "清流",
+      "theme": "JieGarden",
+      "difficulty": null,
+      "recommendation_type": "functional_pick",
+      "functions": ["healing", "ranged"],
+      "hope_context": "low_hope",
+      "priority_claim": "medium",
+      "reason": "Manual community-research fixture: low-Hope healing candidate.",
+      "source_id": "phase4-seed-evidence-manual-001",
+      "confidence": 0.4,
+      "evidence_type": "manual_user_input"
+    },
+    {
+      "operator": "罗小黑",
+      "theme": "JieGarden",
+      "difficulty": null,
+      "recommendation_type": "functional_pick",
+      "functions": ["ground", "utility", "burst"],
+      "hope_context": "low_hope",
+      "priority_claim": "medium",
+      "reason": "Manual community-research fixture: ground/utility candidate. Damage is noted but not added as a new schema tag; burst is an existing schema tag.",
+      "source_id": "phase4-seed-evidence-manual-001",
+      "confidence": 0.35,
+      "evidence_type": "manual_user_input"
+    }
+  ]
+}

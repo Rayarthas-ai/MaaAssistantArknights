@@ -1,0 +1,13 @@
+[
+  {
+    "group": "高台输出",
+    "name": "望"
+  },
+  {
+    "group": "其他高台",
+    "name": "望",
+    "skill": 3,
+    "recruit_priority": 600,
+    "promote_priority": 600
+  }
+]

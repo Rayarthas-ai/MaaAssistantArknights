@@ -1,0 +1,204 @@
+{
+  "望": {
+    "rarity": 6,
+    "functions": {
+      "main_carry": 1.0,
+      "ranged": 0.8,
+      "burst": 0.6,
+      "utility": 0.4
+    },
+    "multi_role": true,
+    "strategy_tier": "T0",
+    "notes": [
+      "Manual Wang-First constraint.",
+      "Seed weights, not final measured strength."
+    ],
+    "evidence": [
+      {
+        "type": "manual strategy",
+        "detail": "Wang-First experiment constraint"
+      },
+      {
+        "type": "MAA official",
+        "detail": "JieGarden configures Wang skill=3"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "古米": {
+    "rarity": 4,
+    "functions": {
+      "ground": 0.6,
+      "block": 0.8,
+      "healing": 0.6,
+      "sustain": 0.7
+    },
+    "multi_role": true,
+    "strategy_tier": "T1",
+    "notes": [
+      "Conservative multi-role seed; not final balance."
+    ],
+    "evidence": [
+      {
+        "type": "MAA official",
+        "detail": "Groups: 重装, 地面阻挡, 奶盾"
+      },
+      {
+        "type": "manual strategy",
+        "detail": "Ground + Block + Healing + Sustain"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "伊桑": {
+    "rarity": 4,
+    "functions": {
+      "ground": 0.4,
+      "control": 0.7,
+      "utility": 0.4,
+      "emergency": 0.3
+    },
+    "multi_role": true,
+    "strategy_tier": "T1",
+    "notes": [
+      "Control/utility values need external validation."
+    ],
+    "evidence": [
+      {
+        "type": "MAA official",
+        "detail": "Group: 地刺; SPECIAL/stalker"
+      },
+      {
+        "type": "manual strategy",
+        "detail": "Phase 4 seed"
+      }
+    ],
+    "confidence": "low"
+  },
+  "砾": {
+    "rarity": 4,
+    "functions": {
+      "ground": 0.4,
+      "fast_redeploy": 0.9,
+      "bait": 0.9,
+      "emergency": 0.7
+    },
+    "multi_role": true,
+    "strategy_tier": "T1",
+    "notes": [
+      "Supported by MAA bait-style group and auto_retreat; still test-adjustable."
+    ],
+    "evidence": [
+      {
+        "type": "MAA official",
+        "detail": "Group: 炮灰; auto_retreat=15"
+      },
+      {
+        "type": "manual strategy",
+        "detail": "Phase 4 seed"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "豆苗": {
+    "rarity": 4,
+    "functions": {
+      "economy": 0.7,
+      "ranged": 0.4,
+      "summon": 0.4,
+      "utility": 0.4
+    },
+    "multi_role": true,
+    "strategy_tier": "T1",
+    "notes": [
+      "Economy is MAA-offset backed; summon/utility need validation."
+    ],
+    "evidence": [
+      {
+        "type": "MAA official",
+        "detail": "Offset references 回费"
+      },
+      {
+        "type": "MAA official",
+        "detail": "PIONEER/tactician"
+      },
+      {
+        "type": "manual strategy",
+        "detail": "Phase 4 seed"
+      }
+    ],
+    "confidence": "low"
+  },
+  "梅": {
+    "rarity": 4,
+    "functions": {
+      "ranged": 0.7,
+      "anti_air": 0.7,
+      "control": 0.3
+    },
+    "multi_role": true,
+    "strategy_tier": "T1",
+    "notes": [
+      "Control is low-confidence seed tag."
+    ],
+    "evidence": [
+      {
+        "type": "MAA official",
+        "detail": "Groups: 速狙, 高台输出"
+      },
+      {
+        "type": "manual strategy",
+        "detail": "Phase 4 seed"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "清流": {
+    "rarity": 4,
+    "functions": {
+      "healing": 0.8,
+      "sustain": 0.6,
+      "ranged": 0.2
+    },
+    "multi_role": true,
+    "strategy_tier": "T1",
+    "notes": [
+      "Sustain value is conservative and test-adjustable."
+    ],
+    "evidence": [
+      {
+        "type": "MAA official",
+        "detail": "Groups: 单奶, 奶"
+      },
+      {
+        "type": "manual strategy",
+        "detail": "Phase 4 seed"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "罗小黑": {
+    "rarity": 4,
+    "functions": {
+      "ground": 0.7,
+      "block": 0.4,
+      "utility": 0.3
+    },
+    "multi_role": true,
+    "strategy_tier": "T1",
+    "notes": [
+      "Ground/block follows MAA group; utility remains manual hypothesis."
+    ],
+    "evidence": [
+      {
+        "type": "MAA official",
+        "detail": "Group: 地面阻挡"
+      },
+      {
+        "type": "manual strategy",
+        "detail": "Phase 4 seed"
+      }
+    ],
+    "confidence": "low"
+  }
+}

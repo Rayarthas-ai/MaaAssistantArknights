@@ -1,0 +1,39 @@
+{
+  "default_weight": 0.3,
+  "source_type_weights": {
+    "game_test": 1.0,
+    "maa_official": 0.9,
+    "maa_pr": 0.8,
+    "maa_issue": 0.55,
+    "github_resource": 0.75,
+    "github_fork": 0.55,
+    "written_guide": 0.75,
+    "video_guide": 0.55,
+    "wiki": 0.5,
+    "forum": 0.45,
+    "community_post": 0.4,
+    "manual_user_input": 0.5
+  },
+  "credibility_multipliers": {
+    "high": 1.0,
+    "medium": 0.75,
+    "low": 0.45,
+    "unknown": 0.35
+  },
+  "version_relevance": {
+    "same_version": 1.0,
+    "unknown_version": 0.7,
+    "older_version": 0.55,
+    "stale": 0.3
+  },
+  "theme_relevance": {
+    "same_theme": 1.0,
+    "unknown_theme": 0.7,
+    "different_theme": 0.35
+  },
+  "difficulty_relevance": {
+    "same_difficulty": 1.0,
+    "unknown_difficulty": 0.75,
+    "different_difficulty": 0.6
+  }
+}

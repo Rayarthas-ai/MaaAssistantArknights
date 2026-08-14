@@ -1,0 +1,45 @@
+{
+  "operators_added": [],
+  "operators_removed": [],
+  "priority_changes": [
+    {
+      "definition": "望 [其他高台]",
+      "operator": "望",
+      "group": "其他高台",
+      "field": "recruit_priority",
+      "baseline": 600,
+      "candidate": 3000
+    },
+    {
+      "definition": "望 [其他高台]",
+      "operator": "望",
+      "group": "其他高台",
+      "field": "promote_priority",
+      "baseline": 600,
+      "candidate": 3000
+    },
+    {
+      "definition": "望 [其他高台]",
+      "operator": "望",
+      "group": "其他高台",
+      "field": "recruit_priority_when_team_full",
+      "baseline": 500,
+      "candidate": 3000
+    },
+    {
+      "definition": "望 [其他高台]",
+      "operator": "望",
+      "group": "其他高台",
+      "field": "promote_priority_when_team_full",
+      "baseline": 900,
+      "candidate": 3000
+    }
+  ],
+  "flag_changes": [],
+  "skill_metadata_changes": [],
+  "groups_added": [],
+  "groups_removed": [],
+  "group_changes": [],
+  "offset_changes": [],
+  "team_complete_condition_changes": null
+}

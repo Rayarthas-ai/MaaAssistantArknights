@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "source_id": "maa-official-jiegarden-v000",
+      "source_type": "maa_official",
+      "title": "MAA JieGarden V000 recruitment baseline",
+      "author": "MaaAssistantArknights",
+      "url": "resource/roguelike/JieGarden/recruitment.json",
+      "collected_at": "2026-08-14",
+      "published_at": null,
+      "game_version": null,
+      "maa_version_if_known": "00da4c367d3167ef732167854314e361b5d5d37f",
+      "roguelike_theme": "JieGarden",
+      "difficulty": null,
+      "language": "json",
+      "credibility": "high",
+      "notes": [
+        "Local official resource baseline. Used as evidence, not an external overwrite."
+      ]
+    },
+    {
+      "source_id": "manual-phase4-low-hope-seeds",
+      "source_type": "manual_user_input",
+      "title": "Phase 4 low-Hope seed operator list",
+      "author": "Arthas / Codex lab",
+      "url": "roguelike-lab/analysis/LOW_HOPE_SEED_OPERATORS.md",
+      "collected_at": "2026-08-14",
+      "published_at": "2026-08-14",
+      "game_version": null,
+      "maa_version_if_known": "00da4c367d3167ef732167854314e361b5d5d37f",
+      "roguelike_theme": "JieGarden",
+      "difficulty": null,
+      "language": "zh-CN",
+      "credibility": "medium",
+      "notes": [
+        "Manual research seed. Requires community guide or game-test validation before promotion."
+      ]
+    }
+  ]
+}
