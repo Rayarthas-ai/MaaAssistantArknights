@@ -50,3 +50,8 @@ Actual game testing is performed on another machine. Store its normalized output
 ## First-Phase Status
 
 Phase 1 creates the lab framework and architecture map only. It does not create V001 and does not change upstream strategy files.
+
+## Current Handoff
+
+- [MAA_STRATEGY_AI_HANDOFF.md](MAA_STRATEGY_AI_HANDOFF.md): AI / development working context. Future AI context recovery should read this first.
+- [MAA_STRATEGY_AI_HANDOFF_2026-08-19.docx](MAA_STRATEGY_AI_HANDOFF_2026-08-19.docx): frozen human-readable snapshot.
